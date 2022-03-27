@@ -1,0 +1,22 @@
+{
+  "name": "atividade-2-sd-api-gateway",
+  "version": "1.0.0",
+  "description": "API Gateway para a Atividade 2",
+  "main": "index.js",
+  "repository": "https://github.com/ricardobgx/atividade-2-sd-api-gateway.git",
+  "author": "DRW",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "http-proxy-middleware": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
