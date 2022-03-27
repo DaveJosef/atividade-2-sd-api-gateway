@@ -16,18 +16,6 @@ const routes = [
     },
   },
   {
-    url: "/premium",
-    auth: true,
-    creditCheck: true,
-    proxy: {
-      target: "https://www.google.com",
-      changeOrigin: true,
-      pathRewrite: {
-        [`^/premium`]: "",
-      },
-    },
-  },
-  {
     url: "/comments",
     auth: false,
     creditCheck: true,
