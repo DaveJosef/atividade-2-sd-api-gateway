@@ -1,3 +1,6 @@
+const dotenv = require("dotenv");
+dotenv.config();
+
 const routes = [
   {
     url: "/books",
@@ -20,7 +23,7 @@ const routes = [
     auth: false,
     creditCheck: true,
     proxy: {
-      target: "http://localhost:3000",
+      target: process.env.COMMENTS_API_URL,
       changeOrigin: true,
       // pathRewrite: {
       //   [`^/commentos`]: "/comments",
