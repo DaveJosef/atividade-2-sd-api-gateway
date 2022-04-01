@@ -5,12 +5,14 @@ Esse app express é o API Gateway da atividade. Os outros dois:
 
 [https://github.com/weligtonferreira/atividade-2-sd-front](https://github.com/weligtonferreira/atividade-2-sd-front)
 
-Se tratam da API de Gateway e do front, respectivamente.
+Se tratam da API de comentários e do front, respectivamente.
 
 ## Variáveis de amviente
 
+```
 PORT={Porta em que o servidor irá rodar}
 COMMENTS_API_URL={URL em que a API de comentários está sendo executada}
+```
 
 ## Para executar
 
